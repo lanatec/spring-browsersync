@@ -1,0 +1,26 @@
+{
+  "name": "spring-browsersync",
+  "authors": [
+    "Emanuel Stefan <emanuel@lanatec.org>"
+  ],
+  "description": "attach event listeners to spring filesystem events e.g. reload page when a stylesheet has changed",
+  "main": "js/spring-browsersync.js",
+  "keywords": [
+    "spring",
+    "browsersync"
+  ],
+  "license": "MIT",
+  "homepage": "www.es-dev.de",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sockjs": "^0.3.4",
+    "stomp-websocket": "^2.3.4",
+    "jquery": "^2.2.4"
+  }
+}
