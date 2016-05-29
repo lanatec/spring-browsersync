@@ -6,7 +6,7 @@ $(document).ready(function() {
 	stompClient.connect({}, function(frame) {
 		console.log('Connected: ' + frame);
 		stompClient.subscribe('/wsdevtools/filesync', function(event) {
-				console.log(event.body);
+			location.reload();
 		});
 	});
 });
